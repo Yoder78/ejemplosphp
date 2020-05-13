@@ -16,7 +16,7 @@
         <li><a href="">SERIES</a>
           <ul>
             <li><a href="primos.php">NUMEROS PRIMOS</a></li>
-            <li><a href="">FIBONACI</a></li>
+            <li><a href="dibonaci.php">FIBONACI</a></li>
           </ul>
         </li>
         
