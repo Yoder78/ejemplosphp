@@ -23,8 +23,8 @@
         <li><a href="crud.php">CRUD</a>
           
         </li>
-        <li><a href="">NOTICIAS</a></li>
-        <li><a href="contactos.html">CONTACTOS</a></li>
+        <li><a href="suma.php">SUMA</a></li>
+        <li><a href="multiplicacion.html">MULTIPLICACIÒN</a></li>
       </ul>
     </div>
     </header>

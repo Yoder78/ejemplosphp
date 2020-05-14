@@ -15,15 +15,14 @@
 
         <li><a href="">SERIES</a>
           <ul>
-            <li><a href="primos.php">NUMEROS PRIMOS</a></li>
-            <li><a href="dibonaci.php">FIBONACI</a></li>
+            <li><a href="primos.php">PRIMOS</a></li>
+            <li><a href="fibonaci.php">FIBONACI</a></li>
           </ul>
         </li>
         
         <li><a href="crud.php">CRUD</a>
           
         </li>
-
         <li><a href="suma.php">SUMA</a></li>
         <li><a href="multiplicacion.html">MULTIPLICACIÒN</a></li>
       </ul>
@@ -44,7 +43,36 @@
   </div>
   <section id="contenedor">
     <section id="contenido">
-      <h1>EJEMPLOS DE PHP</h1>
+        <h2>LA MULTIPLICACION DE DOS NUMEROS</h1>
+                <section class="">
+                    <form  action="suma.php" method="POST">
+                        <div id= "main-container">
+                    <table>
+                    <tr>
+                        <td class="nun1"><input type="text" name="numero1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="numero2"></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit" value="sumar"> </td>
+                    </tr>
+                </table>  
+                </div>  
+                </form>
+                <?php
+                if($_POST)
+                {	
+                    $num1 = $_POST
+                    ['numero1'];
+                    $num2 = $_POST
+                    ['numero2'];
+                    $multiplicacion = $num1 
+                    * $num2;
+                    echo "La multiplicacion de ".$num1." y ".$num2." es ".$multiplicacion; 
+                }
+            ?>
+      </section>
 
     </section>
     <footer>Este sitio fue creado por Yoder A.
