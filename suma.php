@@ -24,7 +24,8 @@
           
         </li>
         <li><a href="suma.php">SUMA</a></li>
-        <li><a href="multiplicacion.html">MULTIPLICACIÒN</a></li>
+        <li><a href="multiplicacion.php">MULTIPLICACIÒN</a></li>
+        <li><a href="multiplicacion.php">DIVISIÒN</a></li>
       </ul>
     </div>
     </header>

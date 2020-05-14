@@ -24,7 +24,8 @@
           
         </li>
         <li><a href="suma.php">SUMA</a></li>
-        <li><a href="multiplicacion.html">MULTIPLICACIÒN</a></li>
+        <li><a href="multiplicacion.php">MULTIPLICACIÒN</a></li>
+        <li><a href="division.php">DIVISIÒN</a></li>
       </ul>
     </div>
     </header>
@@ -45,7 +46,7 @@
     <section id="contenido">
         <h2>LA MULTIPLICACION DE DOS NUMEROS</h1>
                 <section class="">
-                    <form  action="suma.php" method="POST">
+                    <form  action="multiplicacion.php" method="POST">
                         <div id= "main-container">
                     <table>
                     <tr>
@@ -55,7 +56,7 @@
                         <td><input type="text" name="numero2"></td>
                     </tr>
                     <tr>
-                        <td> <input type="submit" value="sumar"> </td>
+                        <td> <input type="submit" value="Multiplicar"> </td>
                     </tr>
                 </table>  
                 </div>  
