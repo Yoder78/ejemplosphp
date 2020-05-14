@@ -20,11 +20,8 @@
           </ul>
         </li>
         
-        <li><a href="">SERVICIOS ESPECIALIZADOS</a>
-          <ul>
-            <li><a href="tabla.html">ATENCIÓN PAPELERIA</a></li>
-            <li><a href="">ATENCIÓN A OFICINAS</a></li>
-          </ul>
+        <li><a href="crud.php">CRUD</a>
+          
         </li>
         <li><a href="">NOTICIAS</a></li>
         <li><a href="contactos.html">CONTACTOS</a></li>
